@@ -1,0 +1,1 @@
+only htm shared component goes to where

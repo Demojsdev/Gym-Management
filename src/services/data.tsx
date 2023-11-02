@@ -3,13 +3,12 @@ import {
   GlobeAmericasIcon,
   NewspaperIcon,
   PhoneIcon,
-  RectangleGroupIcon,
   SquaresPlusIcon,
   SunIcon,
   TagIcon,
   UserGroupIcon,
 } from "@heroicons/react/24/solid";
-export const navListMenuItems = [
+const navListMenuItems = [
   {
     title: "Products",
     description: "Find the perfect solution for your needs.",
@@ -46,13 +45,28 @@ export const navListMenuItems = [
     icon: NewspaperIcon,
   },
   {
-    title: "Products",
-    description: "Find the perfect solution for your needs.",
-    icon: RectangleGroupIcon,
-  },
-  {
     title: "Special Offers",
     description: "Explore limited-time deals and bundles",
     icon: TagIcon,
   },
 ];
+
+const FOOTER_MAP = [
+  {
+    title: "Company",
+    links: ["About Us", "Careers", "Our Team", "Projects"],
+  },
+  {
+    title: "Help Center",
+    links: ["Discord", "Twitter", "GitHub", "Contact Us"],
+  },
+  {
+    title: "Resources",
+    links: ["Blog", "Newsletter", "Free Products", "Affiliate Program"],
+  },
+  {
+    title: "Products",
+    links: ["Templates", "UI Kits", "Icons", "Mockups"],
+  },
+];
+export { navListMenuItems, FOOTER_MAP };
