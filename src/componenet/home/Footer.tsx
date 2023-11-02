@@ -1,5 +1,5 @@
 import { Typography } from "@material-tailwind/react";
-import { FOOTER_MAP } from "../../services/data";
+import { FOOTER_MAP } from "../../services/static-data/data";
 
 const currentYear = new Date().getFullYear();
 
